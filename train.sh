@@ -1,0 +1,3 @@
+python rlpm_train.py -data MotorImagery -cluster 13 -split_idx 278 -initial_learning_rate 0.0005 -decay_steps 500 -decay_rate 0.95 -weights 512 256 -actor_lr 0.001 -critic_lr 0.0001 -wOD
+python rlpm_train.py -data FingerMovements -split_idx 316 -cluster 12 -nodeN 256 -weights 128 -initial_learning_rate 0.0004 -decay_steps 1000 -decay_rate 0.95 -actor_lr 0.0005 -critic_lr 0.00001 -rl_reward_thres_for_decay -0.05 -wOD
+python rlpm_train.py -data ERing -cluster 14 -split_idx 30 -initial_learning_rate 0.0001 -decay_steps 1000 -decay_rate 0.95 -actor_lr 0.0005 -critic_lr 0.0001 -nodeN 256 -weights 128 -rl_reward_thres_for_decay -0.1
