@@ -60,5 +60,9 @@ To train a classifier on MotorImagery/FingerMovements/ERing using rlpm from scra
 	python rlpm_train.py -data ERing -cluster 14 -split_idx 30 -initial_learning_rate 0.0001 -decay_steps 1000 -decay_rate 0.95 -actor_lr 0.0005 -critic_lr 0.0001 -nodeN 256 -weights 128 -rl_reward_thres_for_decay -0.1
 
 
-
+****************************************************************************************************
+----------------------------------------------------------------------------------------------------
+Due to the size limitation of the files that can be uploaded to Github, we do not provide the data, pre-converted MPTS and pre-trained checkpoints here. Please download the full version (1.3GB after de-compression) from https://drive.google.com/file/d/1OrjeVNtG32Llf2ag9QBLtOJvSOG9k81N/view?usp=sharing to access the data, pre-converted MPTS and pre-trained models.
+----------------------------------------------------------------------------------------------------
+****************************************************************************************************
 
